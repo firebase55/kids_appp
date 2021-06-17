@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Entertainmentmoduel.cartoons.fifthcartoon"></activity>
+        <activity android:name=".Entertainmentmoduel.cartoons.cartoonmainScreen"></activity>
+        <activity android:name=".Entertainmentmoduel.cartoons.fifthcartoon" />
         <activity android:name=".Entertainmentmoduel.cartoons.fourthcartoon" />
         <activity android:name=".Entertainmentmoduel.cartoons.thirdcartoon" />
         <activity android:name=".Entertainmentmoduel.cartoons.secondcartoon" />
@@ -19,7 +20,7 @@
         <activity android:name=".Entertainmentmoduel.poemspart.thirdpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.secondpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.Firstpoem" />
-        <activity android:name=".Entertainmentmoduel.poemActivity" />
+        <activity android:name=".Entertainmentmoduel.poemspart.poemActivity" />
         <activity android:name=".Entertainmentmoduel.Entertainment" />
         <activity android:name=".MainActivity">
             <intent-filter>

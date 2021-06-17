@@ -3,33 +3,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:weightSum="1.5"
     android:layout_height="match_parent"
-    tools:context=".Entertainmentmoduel.poemspart.poemActivity">
+    android:orientation="vertical"
+    tools:context=".Entertainmentmoduel.cartoons.cartoonmainScreen">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@drawable/shape">
-<TextView
-    android:layout_width="match_parent"
-    android:text="Poems"
-    android:gravity="center"
-    android:textColor="#fff"
-    android:textSize="40dp"
-    android:textStyle="bold"
-    android:fontFamily="cursive"
-    android:layout_height="match_parent">
 
-</TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Cartoons"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:textStyle="bold">
+
+        </TextView>
     </LinearLayout>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_marginTop="100dp"
+        android:layout_weight="1"
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
@@ -44,10 +45,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:gravity="center"
-                android:text="poem1"
+                android:text="cartoon"
                 android:textColor="#fff"
-                android:textStyle="bold"
-                android:textSize="20dp">
+                android:textSize="20dp"
+                android:textStyle="bold">
 
             </TextView>
 
@@ -66,10 +67,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:gravity="center"
-                android:text="poem2"
+                android:text="cartoon"
                 android:textColor="#fff"
-                android:textStyle="bold"
-                android:textSize="20dp">
+                android:textSize="20dp"
+                android:textStyle="bold">
 
             </TextView>
 
@@ -88,10 +89,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:gravity="center"
-                android:text="poem3"
+                android:text="cartoon"
                 android:textColor="#fff"
-                android:textStyle="bold"
-                android:textSize="20dp">
+                android:textSize="20dp"
+                android:textStyle="bold">
 
             </TextView>
 
@@ -110,20 +111,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:gravity="center"
-                android:text="poem4"
+                android:text="cartoon"
                 android:textColor="#fff"
-                android:textStyle="bold"
-                android:textSize="20dp">
+                android:textSize="20dp"
+                android:textStyle="bold">
 
             </TextView>
 
         </androidx.cardview.widget.CardView>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight=".5"
-        android:background="@drawable/shape"
-        android:layout_height="0dp">
+        android:background="@drawable/shape">
 
     </LinearLayout>
 

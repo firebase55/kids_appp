@@ -1,8 +1,8 @@
-package com.example.fypapp.Entertainmentmoduel;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.fypapp.Entertainmentmoduel.poemspart;
 
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.fypapp.R;
 
