@@ -9,16 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Entertainmentmoduel.poemspart.Firstpoem"></activity>
+        <activity android:name=".Entertainmentmoduel.poemspart.fivethpoem"></activity>
+        <activity android:name=".Entertainmentmoduel.poemspart.fourthpoem" />
+        <activity android:name=".Entertainmentmoduel.poemspart.thirdpoem" />
+        <activity android:name=".Entertainmentmoduel.poemspart.secondpoem" />
+        <activity android:name=".Entertainmentmoduel.poemspart.Firstpoem" />
+
         <activity android:name=".Entertainmentmoduel.poemActivity" />
-        <activity android:name=".Entertainmentmoduel.Entertainment" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".Entertainmentmoduel.Entertainment"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+    <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-</manifest>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+
+    </activity>
+</application>
+
+    </manifest>
