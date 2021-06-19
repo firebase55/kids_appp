@@ -1,6 +1,8 @@
 package com.example.fypapp.Entertainmentmoduel.poemspart;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,5 +14,10 @@ public class poemActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_poem);
+    }
+
+    public void FirstPoem(View view) {
+        Intent first_poem = new Intent(getApplicationContext(), Firstpoem.class);
+        startActivity(first_poem);
     }
 }

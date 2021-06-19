@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#000"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Entertainmentmoduel.cartoons.cartoonmainScreen">
@@ -39,6 +38,7 @@
             android:layout_height="60dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
+            android:onClick="firstCartoon"
             app:cardBackgroundColor="@color/skyblue"
             app:cardCornerRadius="20dp">
 
