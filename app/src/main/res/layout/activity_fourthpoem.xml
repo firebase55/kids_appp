@@ -33,21 +33,34 @@
         android:layout_weight="1.5"
         android:orientation="vertical">
 
-        <VideoView
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp">
+            android:background="@drawable/frame">
 
-        </VideoView>
+            <VideoView
+                android:id="@+id/video1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+            </VideoView>
+        </FrameLayout>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
-            android:background="@color/skyblue"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bbuttonssahpe"
+            android:onClick="fouth_poem"
             android:text="Play"
             android:textColor="#fff"
             android:textSize="20dp">

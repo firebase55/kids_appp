@@ -20,4 +20,20 @@ public class poemActivity extends AppCompatActivity {
         Intent first_poem = new Intent(getApplicationContext(), Firstpoem.class);
         startActivity(first_poem);
     }
+
+    public void peom2(View view) {
+        Intent second_poem = new Intent(getApplicationContext(), secondpoem.class);
+        startActivity(second_poem);
+
+    }
+
+    public void poem3(View view) {
+        Intent thirdpoem = new Intent(getApplicationContext(), thirdpoem.class);
+        startActivity(thirdpoem);
+    }
+
+    public void poem4(View view) {
+        Intent fourth_poem = new Intent(getApplicationContext(), fourthpoem.class);
+        startActivity(fourth_poem);
+    }
 }
