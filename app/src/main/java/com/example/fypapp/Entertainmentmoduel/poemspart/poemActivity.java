@@ -36,4 +36,9 @@ public class poemActivity extends AppCompatActivity {
         Intent fourth_poem = new Intent(getApplicationContext(), fourthpoem.class);
         startActivity(fourth_poem);
     }
+
+    public void poem5(View view) {
+        Intent fifth_poem = new Intent(getApplicationContext(), fivethpoem.class);
+        startActivity(fifth_poem);
+    }
 }

@@ -36,4 +36,10 @@ public class cartoonmainScreen extends AppCompatActivity {
         Intent fourth_cartoon = new Intent(getApplicationContext(), fourthcartoon.class);
         startActivity(fourth_cartoon);
     }
+
+    public void car5(View view) {
+        Intent fifth_cartoon = new Intent(getApplicationContext(), fifthcartoon.class);
+        startActivity(fifth_cartoon);
+
+    }
 }

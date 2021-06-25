@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="60dp"
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
@@ -118,6 +118,29 @@
                 android:textColor="#fff"
                 android:textStyle="bold"
                 android:textSize="20dp">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:onClick="poem5"
+            app:cardBackgroundColor="@color/skyblue"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="poem4"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold">
 
             </TextView>
 

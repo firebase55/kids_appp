@@ -41,8 +41,8 @@
                 android:layout_width="0dp"
                 android:layout_weight=".8"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/g"
-                android:layout_height="100dp">
+                android:layout_height="110dp"
+                android:background="@drawable/newgameicon">
 
             </ImageView>
             <TextView
@@ -85,9 +85,9 @@
                 android:layout_marginLeft="30dp"
                 android:gravity="center"
                 android:textSize="20sp"
-                android:background="@drawable/carton"
+                android:layout_height="110dp"
                 android:textColor="@color/black"
-                android:layout_height="100dp">
+                android:background="@drawable/catonnew">
 
             </ImageView>
 
@@ -105,7 +105,7 @@
                 android:layout_weight=".8"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/poem"
-                android:layout_height="100dp">
+                android:layout_height="120dp">
 
             </ImageView>
             <TextView
