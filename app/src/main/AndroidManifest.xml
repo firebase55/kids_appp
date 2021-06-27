@@ -9,9 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Entertainmentmoduel.Fishgamemoduel.GameoverActivity"></activity>
+        <activity android:name=".splash.splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Entertainmentmoduel.Fishgamemoduel.GameoverActivity" />
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.MainactiviryGame" />
-        <activity android:name=".Entertainmentmoduel.Fishgamemoduel.splashScreen"></activity>
+        <activity android:name=".Entertainmentmoduel.Fishgamemoduel.splashScreen" />
         <activity android:name=".teacherpanel.teacherActivity" />
         <activity android:name=".Entertainmentmoduel.cartoons.cartoonmainScreen" />
         <activity android:name=".Entertainmentmoduel.cartoons.fifthcartoon" />
@@ -25,14 +32,13 @@
         <activity android:name=".Entertainmentmoduel.poemspart.secondpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.Firstpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.poemActivity" />
-        <activity android:name=".Entertainmentmoduel.Entertainment"></activity>
+        <activity android:name=".Entertainmentmoduel.Entertainment" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
