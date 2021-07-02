@@ -5,11 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.provider.Settings;
 
-import com.example.fypapp.MainActivity;
 import com.example.fypapp.R;
-import com.example.fypapp.panelActivity;
+import com.example.fypapp.Teacher_kids_panel_activity.panelActivity;
 
 public class splash_Screen extends AppCompatActivity {
     private final int SPLASH_DISPLAY_LENGTH = 5000;

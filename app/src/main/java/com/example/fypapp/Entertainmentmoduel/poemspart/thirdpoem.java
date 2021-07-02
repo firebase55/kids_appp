@@ -1,5 +1,6 @@
 package com.example.fypapp.Entertainmentmoduel.poemspart;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.MediaController;
@@ -19,7 +20,8 @@ public class thirdpoem extends AppCompatActivity {
 
     public void third_poem(View view) {
         VideoView videoView = findViewById(R.id.video1);
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.m);
+        Uri uri = Uri.parse("android.resource://"+ getPackageName()+"/"+ R.raw.chanda);
+        videoView.setVideoURI(uri);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);

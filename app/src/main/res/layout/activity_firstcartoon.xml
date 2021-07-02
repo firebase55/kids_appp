@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="cartoon"
+            android:text="@string/first_cartoon"
             android:textColor="#fff"
             android:textSize="30sp"
             android:textStyle="bold">
@@ -41,7 +41,7 @@
             android:background="@drawable/frame">
 
             <VideoView
-                android:id="@+id/video1"
+                android:id="@+id/first_video"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_marginLeft="10dp"
@@ -60,9 +60,11 @@
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/vdo"
+            android:padding="10dp"
             android:background="@drawable/bbuttonssahpe"
-            android:onClick="play_video"
             android:text="Play"
+            android:onClick="playvideo"
             android:textColor="#fff"
             android:textSize="20dp">
 

@@ -1,5 +1,6 @@
 package com.example.fypapp.Entertainmentmoduel.cartoons;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.MediaController;
@@ -17,12 +18,15 @@ public class thirdcartoon extends AppCompatActivity {
         setContentView(R.layout.activity_thirdcartoon);
     }
 
-    public void third_cartoon(View view) {
+    public void third_cartoon(View view)
+    {
         VideoView videoView = findViewById(R.id.video1);
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.m);
+        Uri uri = Uri.parse("android.resource://"+ getPackageName()+"/"+ R.raw.shvia);
+        videoView.setVideoURI(uri);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
         videoView.start();
+
     }
 }

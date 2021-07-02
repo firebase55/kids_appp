@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:weightSum="2"
     android:orientation="vertical"
-    tools:context=".Entertainmentmoduel.Entertainment">
+    tools:context=".Entertinment_mainActivity.Entertainment">
 
     <LinearLayout
         android:layout_width="match_parent"

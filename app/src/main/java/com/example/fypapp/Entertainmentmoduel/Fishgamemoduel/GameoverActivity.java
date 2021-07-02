@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.fypapp.MainActivity;
+import com.example.fypapp.Main_dashboard_kids_panel.MainActivity;
 import com.example.fypapp.R;
 
 public class GameoverActivity extends AppCompatActivity {

@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".panelActivity"></activity>
+        <activity android:name=".Teacher_kids_panel_activity.panelActivity"></activity>
         <activity android:name=".splash.splash_Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,8 +33,8 @@
         <activity android:name=".Entertainmentmoduel.poemspart.secondpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.Firstpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.poemActivity" />
-        <activity android:name=".Entertainmentmoduel.Entertainment" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Entertinment_mainActivity.Entertainment" />
+        <activity android:name=".Main_dashboard_kids_panel.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

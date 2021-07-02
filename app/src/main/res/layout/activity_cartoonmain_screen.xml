@@ -12,6 +12,7 @@
         android:layout_height="100dp"
         android:background="@drawable/shape">
 
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -26,11 +27,13 @@
     </LinearLayout>
 
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:layout_weight="1"
+        android:layout_weight=".5"
+        android:layout_gravity="center_horizontal"
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
@@ -46,7 +49,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:gravity="center"
-                android:text="cartoon"
+                android:drawableLeft="@drawable/vdo"
+                android:layout_marginLeft="10dp"
+                android:text="@string/first_cartoon"
                 android:textColor="#fff"
                 android:textSize="20dp"
                 android:textStyle="bold">
@@ -69,8 +74,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:gravity="center"
-                android:text="cartoon"
+                android:text="@string/second_cartoon"
                 android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/vdo"
                 android:textSize="20dp"
                 android:textStyle="bold">
 
@@ -92,8 +99,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:gravity="center"
-                android:text="cartoon"
+                android:text="@string/third_cartoon"
                 android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/vdo"
                 android:textSize="20dp"
                 android:textStyle="bold">
 
@@ -115,9 +124,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:gravity="center"
-                android:text="cartoon"
+                android:text="@string/fourth_cartoon"
                 android:textColor="#fff"
                 android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/vdo"
                 android:textStyle="bold">
 
             </TextView>
@@ -138,7 +149,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:gravity="center"
-                android:text="cartoon"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/vdo"
+                android:text="@string/fifth_cartoon"
                 android:textColor="#fff"
                 android:textSize="20dp"
                 android:textStyle="bold">
@@ -151,7 +164,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight=".5"
+        android:layout_weight=".3"
         android:background="@drawable/shape2">
 
     </LinearLayout>

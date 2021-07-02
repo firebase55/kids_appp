@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Kindergarten</string>
+    <string name="first_cartoon">Tom and Jerry cartoon </string>
+    <string name="second_cartoon">Motu Patlu</string>
+    <string name="third_cartoon">shiva cartoon</string>
+    <string name="fourth_cartoon">Kaneeza Girl cartoon </string>
+    <string name="fifth_cartoon">Jaan Cartoon </string>
+    <string name="first_poem">Twinkle Twinkle Little Star</string>
+    <string name="second_poem">Nani Teri Morni </string>
+    <string name="third_poem"> Chanda Mama Door Ke</string>
+    <string name="fourth_poem">Humpty Dumpty </string>
+    <string name="fifth_poem">Baba black sheep </string>
+
+
 </resources>

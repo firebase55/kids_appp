@@ -6,7 +6,7 @@
     android:weightSum="2"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Main_dashboard_kids_panel.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
