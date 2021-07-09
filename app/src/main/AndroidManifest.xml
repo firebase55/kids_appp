@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Teacher_kids_panel_activity.panelActivity"></activity>
+        <activity android:name=".Quiz.QuizMainActivity"></activity>
+        <activity android:name=".Teacher_kids_panel_activity.panelActivity" />
         <activity android:name=".splash.splash_Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
