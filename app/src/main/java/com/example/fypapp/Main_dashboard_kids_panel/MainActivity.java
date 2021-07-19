@@ -6,8 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.fypapp.Entertainmentmoduel.Fishgamemoduel.splashScreen;
 import com.example.fypapp.Entertinment_mainActivity.Entertainment;
+import com.example.fypapp.Quiz.QuizMainActivity;
 import com.example.fypapp.R;
+
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +23,27 @@ public class MainActivity extends AppCompatActivity {
 
     public void enter(View view)
     {
-        Intent newintent = new Intent(getApplicationContext(), Entertainment.class);
-        startActivity(newintent);
+        new SweetAlertDialog(MainActivity.this, SweetAlertDialog.SUCCESS_TYPE)
+                .setTitleText("Firstly Attemt the Quiz all the give answer must be Correct and then Enjoy Game , Cartoons and Poems !")
+                .setConfirmText("Yes")
+                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sDialog) {
+
+                        Intent gameIntent = new Intent(getApplicationContext(), QuizMainActivity.class);
+                        startActivity(gameIntent);
+
+                    }
+                })
+                .setCancelText("No")
+                .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sDialog) {
+
+                        sDialog.dismissWithAnimation();
+
+                    }
+                })
+                .show();
     }
 }
