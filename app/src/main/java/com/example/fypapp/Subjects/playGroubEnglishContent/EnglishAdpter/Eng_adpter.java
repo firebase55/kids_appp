@@ -48,7 +48,7 @@ public class Eng_adpter extends PagerAdapter {
 
 
             };
-
+//
 
     public Eng_adpter(Context context) {
         this.context = context;
