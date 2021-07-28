@@ -52,7 +52,7 @@ public class QuizMainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (b1.getText().toString().equalsIgnoreCase(list.get(turn - 1).getName())) {
                     Toast.makeText(QuizMainActivity.this, "correct Ans", Toast.LENGTH_SHORT).show();
-                    if (turn < list.size()) {
+                    if (turn < 6) {
                         turn++;
                         newQuestion(turn);
                     } else {
@@ -75,6 +75,8 @@ public class QuizMainActivity extends AppCompatActivity {
 
                                     Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                                     startActivity(intent);
+
+
 
                                 }
                             })
