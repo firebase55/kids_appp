@@ -9,13 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Quiz.QuizMainActivity">
+        <activity android:name=".Subjects.playGroubEnglishContent.EnglishActivity">
 
         </activity>
+        <activity android:name=".Subjects.playGroupMathsContent.playGroupMathsActivity">
+
+        </activity>
+        <activity android:name=".Subjects.ClassesActivity" />
+        <activity android:name=".Subjects.subjectMaicActivity"></activity>
+        <activity android:name=".Quiz.QuizMainActivity" />
         <activity android:name=".Teacher_kids_panel_activity.panelActivity" />
-        <activity android:name=".splash.splash_Screen">
-
-        </activity>
+        <activity android:name=".splash.splash_Screen" />
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.GameoverActivity" />
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.MainactiviryGame" />
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.splashScreen" />

@@ -68,6 +68,8 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="40dp"
+            android:id="@+id/subject_id"
+            android:onClick="Subject_button"
             app:cardBackgroundColor="@color/skyblue"
             app:cardCornerRadius="20dp">
 

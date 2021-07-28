@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/shape">
+<TextView
+    android:layout_width="match_parent"
+    android:textSize="25sp"
+    android:textColor="#fff"
+    android:textStyle="bold"
+    android:text="Subjects"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+</TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1.6"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight=".3"
+            android:weightSum="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="0dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".6"
+                android:background="@drawable/ic_ten"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent">
+
+            </View>
+            <Button
+                android:layout_width="0dp"
+                android:text="Maths"
+                android:textSize="20dp"
+                android:id="@+id/maths_button"
+                android:textColor="#fff"
+                android:background="@drawable/bbuttonssahpe"
+                android:layout_weight="1.4"
+                android:layout_height="match_parent">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight=".3"
+            android:weightSum="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="0dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".6"
+                android:background="@drawable/img_a"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent">
+
+            </View>
+            <Button
+                android:layout_width="0dp"
+                android:text="English"
+                android:id="@+id/English_button"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:background="@drawable/bbuttonssahpe"
+                android:layout_weight="1.4"
+                android:layout_height="match_parent">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight=".3"
+            android:weightSum="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="0dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".6"
+                android:background="@drawable/ic_ten"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent">
+
+            </View>
+            <Button
+                android:layout_width="0dp"
+                android:text="Urdu"
+                android:textSize="20dp"
+                android:id="@+id/Urdu"
+                android:textColor="#fff"
+                android:background="@drawable/bbuttonssahpe"
+                android:layout_weight="1.4"
+                android:layout_height="match_parent">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".4"
+        android:background="@drawable/shape2"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

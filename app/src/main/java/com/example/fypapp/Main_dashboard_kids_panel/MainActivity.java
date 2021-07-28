@@ -10,6 +10,8 @@ import com.example.fypapp.Entertainmentmoduel.Fishgamemoduel.splashScreen;
 import com.example.fypapp.Entertinment_mainActivity.Entertainment;
 import com.example.fypapp.Quiz.QuizMainActivity;
 import com.example.fypapp.R;
+import com.example.fypapp.Subjects.ClassesActivity;
+import com.example.fypapp.Subjects.subjectMaicActivity;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
@@ -45,5 +47,11 @@ public class MainActivity extends AppCompatActivity {
                     }
                 })
                 .show();
+    }
+
+    public void Subject_button(View view)
+    {
+        Intent subject = new Intent(getApplicationContext(), ClassesActivity.class);
+        startActivity(subject);
     }
 }
