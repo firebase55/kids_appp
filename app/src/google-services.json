@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962057263539",
+    "project_id": "kidsappfyp",
+    "storage_bucket": "kidsappfyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962057263539:android:4d604be0a40d649a2e13c6",
+        "android_client_info": {
+          "package_name": "com.example.fypapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962057263539-4789gl5kb47mqjd16iaj78vkb44idver.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq1OV723UuZoB987KXRFg1-v6KsvHtwjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962057263539-4789gl5kb47mqjd16iaj78vkb44idver.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

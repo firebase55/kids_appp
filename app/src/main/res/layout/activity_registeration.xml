@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/shape">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Registration"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1.6"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/name"
+            android:inputType="text"
+            android:layout_marginTop="40dp"
+            android:hint="Name"
+            android:drawableRight="@drawable/name"
+            android:padding="10dp"
+            android:background="@drawable/sinin_design"
+            android:layout_marginRight="20dp"
+            android:layout_height="40dp">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"
+            android:drawableRight="@drawable/adress"
+            android:layout_marginTop="20dp"
+            android:hint="Adress"
+            android:id="@+id/adress"
+            android:padding="10dp"
+            android:background="@drawable/sinin_design"
+            android:layout_marginRight="20dp"
+            android:layout_height="40dp">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:id="@+id/emai"
+            android:drawableRight="@drawable/mail"
+            android:background="@drawable/sinin_design"
+            android:layout_marginRight="20dp"
+            android:layout_height="40dp">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Pass"
+            android:id="@+id/pass"
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/pass"
+            android:padding="10dp"
+            android:background="@drawable/sinin_design"
+            android:layout_marginRight="20dp"
+            android:layout_height="40dp">
+
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:text="SignUp!"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:id="@+id/Main_page"
+            android:textColor="#fff"
+            android:background="@drawable/shape"
+            android:layout_marginRight="40dp"
+            android:layout_height="45dp">
+
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="SignIn!"
+            android:padding="10dp"
+            android:textSize="17dp"
+            android:id="@+id/login_pagee"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginRight="40dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".4"
+        android:background="@drawable/shape2"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

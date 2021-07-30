@@ -9,14 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Subjects.playGroubEnglishContent.EnglishActivity">
+        <activity android:name=".Teacher_kids_panel_activity.Registeration.loginActivity"></activity>
+        <activity android:name=".Teacher_kids_panel_activity.Registeration.registerationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".Subjects.playGroupMathsContent.playGroupMathsActivity">
-
-        </activity>
+        <activity android:name=".Subjects.playGroubEnglishContent.EnglishActivity" />
+        <activity android:name=".Subjects.playGroupMathsContent.playGroupMathsActivity" />
         <activity android:name=".Subjects.ClassesActivity" />
-        <activity android:name=".Subjects.subjectMaicActivity"></activity>
+        <activity android:name=".Subjects.subjectMaicActivity" />
         <activity android:name=".Quiz.QuizMainActivity" />
         <activity android:name=".Teacher_kids_panel_activity.panelActivity" />
         <activity android:name=".splash.splash_Screen" />
@@ -38,11 +42,7 @@
         <activity android:name=".Entertainmentmoduel.poemspart.poemActivity" />
         <activity android:name=".Entertinment_mainActivity.Entertainment" />
         <activity android:name=".Main_dashboard_kids_panel.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

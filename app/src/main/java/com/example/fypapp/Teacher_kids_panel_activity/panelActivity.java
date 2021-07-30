@@ -18,14 +18,7 @@ public class panelActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_panel);
-        teach = (TextView)findViewById(R.id.teacher_tv);
         kd = (TextView)findViewById(R.id.kid_tv);
-        teach.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Under construction",Toast.LENGTH_LONG).show();
-            }
-        });
         kd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,5 +26,10 @@ public class panelActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public void login_page(View view)
+    {
+
     }
 }

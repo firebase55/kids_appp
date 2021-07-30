@@ -45,10 +45,8 @@ public class Eng_adpter extends PagerAdapter {
                     R.drawable.y_img,
                     R.drawable.z_img,
 
-
-
             };
-/////// image 
+/////// image
 
     public Eng_adpter(Context context) {
         this.context = context;
