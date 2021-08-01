@@ -31,7 +31,7 @@ public class texttospeech extends AppCompatActivity {
 
             }
         });
-////
+//////
     }
     public void tts(View view)
     {
