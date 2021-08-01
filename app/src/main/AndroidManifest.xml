@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Teacher_kids_panel_activity.Registeration.loginActivity"></activity>
+        <activity android:name=".gernelKnowledge.texttospeech"></activity>
+        <activity android:name=".Teacher_kids_panel_activity.Registeration.loginActivity" />
         <activity android:name=".Teacher_kids_panel_activity.Registeration.registerationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,9 +42,7 @@
         <activity android:name=".Entertainmentmoduel.poemspart.Firstpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.poemActivity" />
         <activity android:name=".Entertinment_mainActivity.Entertainment" />
-        <activity android:name=".Main_dashboard_kids_panel.MainActivity">
-
-        </activity>
+        <activity android:name=".Main_dashboard_kids_panel.MainActivity"></activity>
     </application>
 
 </manifest>
