@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".gernelKnowledge.texttospeech"></activity>
+        <activity android:name=".gernelKnowledge.texttospeech"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+
+        </intent-filter></activity>
         <activity android:name=".Teacher_kids_panel_activity.Registeration.loginActivity" />
         <activity android:name=".Teacher_kids_panel_activity.Registeration.registerationActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Subjects.playGroubEnglishContent.EnglishActivity" />
         <activity android:name=".Subjects.playGroupMathsContent.playGroupMathsActivity" />

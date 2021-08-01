@@ -1,9 +1,824 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:weightSum="2"
     android:layout_height="match_parent"
-    tools:context=".gernelKnowledge.texttospeech">
+    android:orientation="vertical"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/shape">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Text tO Speech"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1.8"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_height="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="A for Apple"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#050505"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/speechid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="B for Ball"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#050505"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/bid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="C for Cat"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#090808"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/cid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="D for Dog"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/did"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="E for Egg"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/eid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="46dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="F for Fish"
+                        android:textColor="#000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/fid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="G for Goat"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/gid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="H for Hen"
+                        android:textColor="#000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/hid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="I for Ice Cream"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/iid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="J for Jug"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/jid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="K for Kite"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/kid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="L for Lion"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/lid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="M for Monkey"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/mid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="N for Nest"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/nid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="O for Orange"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/oid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="P for Panda"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/pid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="Q for Queen"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/qid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="R for Rabbit"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/rid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="S for Snake"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/sid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="T for Tiger"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/tid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="U for Umbralla"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/uid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="V for Vampir"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/vid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="W for Watch"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/wid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="X for Xlophone"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/xid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="Y for Yoga"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/yid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="Z for Zebra"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/zid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#111111"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:visibility="invisible"
+                    android:layout_height="35dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="Z for Zebra"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_height="40dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/zzid"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newspeaker"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".4"
+        android:background="@drawable/shape2"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
