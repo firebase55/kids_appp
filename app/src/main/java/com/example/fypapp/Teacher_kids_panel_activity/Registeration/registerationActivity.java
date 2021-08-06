@@ -53,6 +53,8 @@ public class registerationActivity extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 Toast.makeText(registerationActivity.this, "data save", Toast.LENGTH_SHORT).show();
+                                Intent loginPAge =new Intent(getApplicationContext(),loginActivity.class);
+                                startActivity(loginPAge);
                             } else {
                                 Toast.makeText(registerationActivity.this, "errro", Toast.LENGTH_SHORT).show();
                             }

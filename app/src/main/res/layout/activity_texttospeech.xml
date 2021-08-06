@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="110dp"
+        android:layout_height="80dp"
         android:background="@drawable/shape">
         <TextView
             android:layout_width="match_parent"
@@ -63,15 +63,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/speechid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
 
                 <TextView
@@ -93,13 +100,21 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/bid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
 
                 </LinearLayout>
@@ -120,13 +135,21 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/cid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/cat_img"
                         android:layout_height="40dp" />
 
                 </LinearLayout>
@@ -147,13 +170,21 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/did"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
 
                 </LinearLayout>
@@ -175,15 +206,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/eid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -203,15 +241,22 @@
                         android:textSize="17dp"
                         android:textStyle="bold" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/fid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -231,15 +276,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/gid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
 
                 <TextView
@@ -261,15 +313,22 @@
                         android:textSize="17dp"
                         android:textStyle="bold" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/hid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
 
                 <TextView
@@ -291,15 +350,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/iid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -319,15 +385,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/jid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -347,15 +420,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/kid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -375,15 +455,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/lid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -402,16 +489,24 @@
                         android:textStyle="bold"
                         android:textSize="17dp"
                         android:layout_height="40dp" />
+
+                    <ImageButton
+                        android:id="@+id/mid"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/newspeaker"
+                        android:onClick="tts" />
                     <ImageButton
                         android:layout_width="40dp"
                         android:layout_gravity="center"
-                        android:id="@+id/mid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
-                        android:background="@drawable/newspeaker"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -431,15 +526,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/nid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -458,15 +560,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/oid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/orange_fruite"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -486,15 +595,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/pid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -514,15 +630,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/qid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -542,15 +665,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/rid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -570,15 +700,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/sid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -598,15 +735,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/tid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -626,15 +770,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/uid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -654,15 +805,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/vid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -682,15 +840,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/wid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -710,15 +875,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/xid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
 
                 <TextView
@@ -739,15 +911,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/yid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -767,15 +946,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/zid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/appricot_fruit"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -795,15 +981,22 @@
                         android:textSize="17dp"
                         android:layout_height="40dp" />
                     <ImageButton
-                        android:layout_width="40dp"
+                        android:layout_width="30dp"
                         android:layout_gravity="center"
                         android:id="@+id/zzid"
                         android:layout_marginTop="3dp"
                         android:onClick="tts"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="20dp"
                         android:background="@drawable/newspeaker"
+                        android:layout_height="30dp" />
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:onClick="tts"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/zebra_img"
                         android:layout_height="40dp" />
-
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

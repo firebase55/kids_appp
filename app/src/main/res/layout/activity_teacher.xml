@@ -45,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginLeft="40dp"
+            android:id="@+id/chatButton"
             android:onClick="enter"
             android:layout_marginRight="40dp"
             app:cardBackgroundColor="@color/skyblue"

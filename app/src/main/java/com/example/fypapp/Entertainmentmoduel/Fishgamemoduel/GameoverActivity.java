@@ -13,6 +13,7 @@ import com.example.fypapp.R;
 
 public class GameoverActivity extends AppCompatActivity {
     private Button StartGameAgain;
+    private Button exitButton;
 
     private TextView DisplayScore;
     private String score;
@@ -24,6 +25,8 @@ public class GameoverActivity extends AppCompatActivity {
         score = getIntent().getExtras().get("score").toString();
 
         StartGameAgain = findViewById(R.id.play_again_btn);
+        exitButton = findViewById(R.id.exit);
+
         DisplayScore = findViewById(R.id.displayScore);
 
 
@@ -36,10 +39,14 @@ public class GameoverActivity extends AppCompatActivity {
             }
         });
         DisplayScore.setText("Score= " + score);
+        exitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mainactivity = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(mainactivity);
+            }
+        });
     }
 
-    public void exit(View view) {
-        Intent mainactivity = new Intent(getApplicationContext(), MainActivity.class);
-        startActivity(mainactivity);
-    }
+
 }

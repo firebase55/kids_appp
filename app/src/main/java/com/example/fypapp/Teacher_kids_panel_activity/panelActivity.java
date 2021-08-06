@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.example.fypapp.Main_dashboard_kids_panel.MainActivity;
 import com.example.fypapp.R;
+import com.example.fypapp.Teacher_kids_panel_activity.Registeration.registerationActivity;
 
 public class panelActivity extends AppCompatActivity {
     TextView teach, kd;
@@ -18,18 +19,20 @@ public class panelActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_panel);
-        kd = (TextView)findViewById(R.id.kid_tv);
-        kd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);
-            }
-        });
+
+    }
+
+
+
+    public void kids(View view)
+    {
+        Intent kids = new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(kids);
     }
 
     public void login_page(View view)
     {
-
+        Intent createAccount = new Intent(getApplicationContext(), registerationActivity.class);
+        startActivity(createAccount);
     }
 }

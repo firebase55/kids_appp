@@ -74,6 +74,20 @@
             android:layout_height="45dp">
 
         </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="Forgetpassword!"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/reset_password"
+            android:textColor="#3F51B5"
+            android:layout_marginRight="40dp"
+            android:layout_height="45dp">
+
+        </TextView>
 
 
     </LinearLayout>

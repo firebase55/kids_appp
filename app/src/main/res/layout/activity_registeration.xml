@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="110dp"
+        android:layout_height="90dp"
         android:background="@drawable/shape">
         <TextView
             android:layout_width="match_parent"
@@ -25,7 +25,7 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_weight="1.6"
+        android:layout_weight="1.9"
         android:layout_gravity="center"
         android:gravity="center"
         android:weightSum="2"
@@ -89,15 +89,15 @@
         </EditText>
         <Button
             android:layout_width="match_parent"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="80dp"
             android:layout_marginTop="40dp"
             android:text="SignUp!"
             android:padding="10dp"
             android:textSize="20dp"
             android:id="@+id/Main_page"
             android:textColor="#fff"
-            android:background="@drawable/shape"
-            android:layout_marginRight="40dp"
+            android:background="@drawable/bbuttonssahpe"
+            android:layout_marginRight="80dp"
             android:layout_height="45dp">
 
         </Button>

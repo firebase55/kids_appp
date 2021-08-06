@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fypapp">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,23 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".gernelKnowledge.texttospeech"><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-
-        </intent-filter></activity>
-        <activity android:name=".Teacher_kids_panel_activity.Registeration.loginActivity" />
-        <activity android:name=".Teacher_kids_panel_activity.Registeration.registerationActivity">
+        <activity android:name=".teacherpanel.chatModuel.MainChatActivity">
 
         </activity>
+        <activity android:name=".gernelKnowledge.texttospeech">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Teacher_kids_panel_activity.Registeration.loginActivity" />
+        <activity android:name=".Teacher_kids_panel_activity.Registeration.registerationActivity"></activity>
         <activity android:name=".Subjects.playGroubEnglishContent.EnglishActivity" />
         <activity android:name=".Subjects.playGroupMathsContent.playGroupMathsActivity" />
         <activity android:name=".Subjects.ClassesActivity" />
         <activity android:name=".Subjects.subjectMaicActivity" />
         <activity android:name=".Quiz.QuizMainActivity" />
         <activity android:name=".Teacher_kids_panel_activity.panelActivity" />
-        <activity android:name=".splash.splash_Screen" />
+        <activity android:name=".splash.splash_Screen">
+
+
+        </activity>
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.GameoverActivity" />
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.MainactiviryGame" />
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.splashScreen" />
@@ -35,7 +42,9 @@
         <activity android:name=".Entertainmentmoduel.cartoons.fourthcartoon" />
         <activity android:name=".Entertainmentmoduel.cartoons.thirdcartoon" />
         <activity android:name=".Entertainmentmoduel.cartoons.secondcartoon" />
-        <activity android:name=".Entertainmentmoduel.cartoons.firstcartoon" />
+        <activity android:name=".Entertainmentmoduel.cartoons.firstcartoon">
+
+        </activity>
         <activity android:name=".Entertainmentmoduel.poemspart.fivethpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.fourthpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.thirdpoem" />
@@ -43,7 +52,7 @@
         <activity android:name=".Entertainmentmoduel.poemspart.Firstpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.poemActivity" />
         <activity android:name=".Entertinment_mainActivity.Entertainment" />
-        <activity android:name=".Main_dashboard_kids_panel.MainActivity"></activity>
+        <activity android:name=".Main_dashboard_kids_panel.MainActivity" />
     </application>
 
 </manifest>
