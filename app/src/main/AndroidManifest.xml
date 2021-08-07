@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fypapp">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,18 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".teacherpanel.chatModuel.MainChatActivity">
+        <activity android:name=".gernelKnowledge.shapes.shapesMain"></activity>
+        <activity android:name=".gernelKnowledge.mathsActivity.mathsActivityMAin" />
+        <activity android:name=".gernelKnowledge.islamic.islamic_activity" />
+        <activity android:name=".gernelKnowledge.vegatble.veg_activity" />
+        <activity android:name=".gernelKnowledge.bodyParts.body_partsActivity" />
+        <activity android:name=".gernelKnowledge.animalsdata.animaActivity" />
+        <activity android:name=".gernelKnowledge.Mainactivity.gernealMainactivity">
 
         </activity>
-        <activity android:name=".gernelKnowledge.texttospeech">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".teacherpanel.chatModuel.MainChatActivity" />
+        <activity android:name=".gernelKnowledge.Texttospeech.texttospeech" />
         <activity android:name=".Teacher_kids_panel_activity.Registeration.loginActivity" />
-        <activity android:name=".Teacher_kids_panel_activity.Registeration.registerationActivity"></activity>
+        <activity android:name=".Teacher_kids_panel_activity.Registeration.registerationActivity" />
         <activity android:name=".Subjects.playGroubEnglishContent.EnglishActivity" />
         <activity android:name=".Subjects.playGroupMathsContent.playGroupMathsActivity" />
         <activity android:name=".Subjects.ClassesActivity" />
@@ -30,8 +31,11 @@
         <activity android:name=".Quiz.QuizMainActivity" />
         <activity android:name=".Teacher_kids_panel_activity.panelActivity" />
         <activity android:name=".splash.splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.GameoverActivity" />
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.MainactiviryGame" />
@@ -42,9 +46,7 @@
         <activity android:name=".Entertainmentmoduel.cartoons.fourthcartoon" />
         <activity android:name=".Entertainmentmoduel.cartoons.thirdcartoon" />
         <activity android:name=".Entertainmentmoduel.cartoons.secondcartoon" />
-        <activity android:name=".Entertainmentmoduel.cartoons.firstcartoon">
-
-        </activity>
+        <activity android:name=".Entertainmentmoduel.cartoons.firstcartoon" />
         <activity android:name=".Entertainmentmoduel.poemspart.fivethpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.fourthpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.thirdpoem" />

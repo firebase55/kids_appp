@@ -61,6 +61,14 @@
                 android:textSize="20dp">
 
             </TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/chat"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp">
+
+            </ImageView>
 
         </androidx.cardview.widget.CardView>
 
@@ -85,7 +93,14 @@
                 android:textSize="20dp">
 
             </TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/networking"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp">
 
+            </ImageView>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -108,6 +123,14 @@
                 android:textSize="20dp">
 
             </TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/control"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp">
+
+            </ImageView>
 
         </androidx.cardview.widget.CardView>
 

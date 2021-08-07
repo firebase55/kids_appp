@@ -20,16 +20,16 @@ public class adpter extends PagerAdapter {
 
     private Integer [] image =
             {
-                    R.drawable.ic_one,
-                    R.drawable.ic_two,
-                    R.drawable.ic_three,
-                    R.drawable.ic_four,
-                    R.drawable.ic_five,
-                    R.drawable.ic_six,
-                    R.drawable.ic_seven,
-                    R.drawable.ic_eight,
-                    R.drawable.ic_nine,
-                    R.drawable.ic_ten,
+                    R.drawable.img_table_2,
+                    R.drawable.img_table_3,
+                    R.drawable.img_table_3,
+                    R.drawable.img_table_4,
+                    R.drawable.img_table_5,
+                    R.drawable.img_table_6,
+                    R.drawable.img_table_7,
+                    R.drawable.img_table_8,
+                    R.drawable.img_table_9,
+
 
             };
 
@@ -50,7 +50,7 @@ public class adpter extends PagerAdapter {
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         layoutInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = layoutInflater.inflate(R.layout.custem_layout,null);
+        View view = layoutInflater.inflate(R.layout.maths_layout,null);
         ImageView imageView = (ImageView) view.findViewById(R.id.imageid);
         imageView.setImageResource(image[position]);
         ViewPager viewPager = (ViewPager)container;

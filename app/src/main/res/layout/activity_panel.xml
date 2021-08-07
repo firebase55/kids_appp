@@ -63,6 +63,14 @@
                 android:id="@+id/teacher_tv">
 
             </TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/networking"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp">
+
+            </ImageView>
 
         </androidx.cardview.widget.CardView>
 
@@ -87,6 +95,14 @@
                 android:id="@+id/kid_tv">
 
             </TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boy"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp">
+
+            </ImageView>
 
         </androidx.cardview.widget.CardView>
 

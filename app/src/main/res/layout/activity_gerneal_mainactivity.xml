@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/shape">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="GenralKnowledge"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/skyblue"
+                    android:layout_height="2dp">
+
+                </View>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight=".1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/animals_id"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/zebra_img">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tts"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Animals/Birds"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/skyblue"
+                    android:layout_height="2dp">
+
+                </View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight=".1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tts2"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight=".8"
+                        android:gravity="center"
+                        android:text="Human Body parts"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:id="@+id/body_parts_id"
+                        android:background="@drawable/partsss"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </ImageView>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/skyblue"
+                    android:layout_height="2dp">
+
+                </View>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight=".1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight=".8"
+                        android:id="@+id/vegtable"
+                        android:background="@drawable/vegg">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tts3"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Vegetabel And fruits"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/skyblue"
+                    android:layout_height="2dp">
+
+                </View>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight=".1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight=".8"
+                        android:id="@+id/islamic_name_id"
+                        android:background="@drawable/img_s">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tts4"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Islamic Studies"
+                        android:textColor="@color/black"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/skyblue"
+                android:layout_height="2dp">
+
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight=".1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight=".8"
+                    android:gravity="center"
+                    android:id="@+id/tts5"
+                    android:text="G.Maths"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_one"
+                    android:gravity="center"
+                    android:id="@+id/maths_id"
+                    android:textColor="@color/black"
+                    android:textSize="20sp">
+
+                </ImageView>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/skyblue"
+                android:layout_height="2dp">
+
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight=".1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight=".8"
+                    android:gravity="center"
+                    android:id="@+id/tts6"
+                    android:text="Shapes"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape"
+                    android:gravity="center"
+                    android:id="@+id/shapes_id"
+                    android:textColor="@color/black"
+                    android:textSize="20sp">
+
+                </ImageView>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/skyblue"
+                android:layout_height="2dp">
+
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight=".1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight=".8"
+                    android:gravity="center"
+                    android:id="@+id/tts7"
+                    android:text="Text To Speech"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/newspeaker"
+                    android:gravity="center"
+                    android:id="@+id/text_to_speech_id"
+                    android:textColor="@color/black"
+                    android:textSize="20sp">
+
+                </ImageView>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@color/skyblue"
+                android:layout_height="2dp">
+
+            </View>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/shape">
+
+    </LinearLayout>
+
+</LinearLayout>

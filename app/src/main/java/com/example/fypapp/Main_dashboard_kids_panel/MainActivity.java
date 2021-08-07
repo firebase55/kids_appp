@@ -12,6 +12,7 @@ import com.example.fypapp.Quiz.QuizMainActivity;
 import com.example.fypapp.R;
 import com.example.fypapp.Subjects.ClassesActivity;
 import com.example.fypapp.Subjects.subjectMaicActivity;
+import com.example.fypapp.gernelKnowledge.Mainactivity.gernealMainactivity;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
@@ -56,4 +57,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void gernal(View view)
+    {
+
+        Intent gernal = new Intent(getApplicationContext(), gernealMainactivity.class);
+        startActivity(gernal);
+    }
 }
