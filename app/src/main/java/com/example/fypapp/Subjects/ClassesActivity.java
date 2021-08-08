@@ -19,7 +19,24 @@ public class ClassesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_classes);
         CardView playGroup = (CardView) findViewById(R.id.play_group);
+        CardView nursery = (CardView) findViewById(R.id.Nursery);
+        CardView prep = (CardView) findViewById(R.id.prep);
+
         playGroup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent English_content = new Intent(getApplicationContext(), subjectMaicActivity.class);
+                startActivity(English_content);
+            }
+        });
+        nursery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent English_content = new Intent(getApplicationContext(), subjectMaicActivity.class);
+                startActivity(English_content);
+            }
+        });
+        prep.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent English_content = new Intent(getApplicationContext(), subjectMaicActivity.class);

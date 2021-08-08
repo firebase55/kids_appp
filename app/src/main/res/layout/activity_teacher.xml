@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:weightSum="2"
     android:layout_height="match_parent"
     android:orientation="vertical"
->
+    android:weightSum="2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,11 +22,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:text="@string/app_name"
             android:textColor="@color/black"
             android:textSize="35dp"
-            android:fontFamily="sans-serif-black"
             android:textStyle="bold">
 
         </TextView>
@@ -37,17 +36,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:gravity="center"
         android:layout_weight="1.5"
+        android:gravity="center"
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/chatButton"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginLeft="40dp"
-            android:id="@+id/chatButton"
-            android:onClick="enter"
             android:layout_marginRight="40dp"
+            android:onClick="enter"
             app:cardBackgroundColor="@color/skyblue"
             app:cardCornerRadius="20dp">
 
@@ -57,58 +56,31 @@
                 android:gravity="center"
                 android:text="Chat"
                 android:textColor="#fff"
-                android:textStyle="bold"
-                android:textSize="20dp">
+                android:textSize="20dp"
+                android:textStyle="bold">
 
             </TextView>
+
             <ImageView
                 android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
-                android:background="@drawable/chat"
-                android:layout_marginLeft="10dp"
-                android:layout_height="30dp">
+                android:background="@drawable/chat">
 
             </ImageView>
 
         </androidx.cardview.widget.CardView>
 
+
+
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="40dp"
-            android:id="@+id/subject_id"
-            android:onClick="Subject_button"
-            app:cardBackgroundColor="@color/skyblue"
-            app:cardCornerRadius="20dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-                android:text="Kids Performanse"
-                android:textColor="#fff"
-                android:textStyle="bold"
-                android:textSize="20dp">
-
-            </TextView>
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/networking"
-                android:layout_marginLeft="10dp"
-                android:layout_height="30dp">
-
-            </ImageView>
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="40dp"
             android:id="@+id/activity_control"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
             android:onClick="Subject_button"
             app:cardBackgroundColor="@color/skyblue"
             app:cardCornerRadius="20dp">
@@ -119,27 +91,29 @@
                 android:gravity="center"
                 android:text="Activity Control"
                 android:textColor="#fff"
-                android:textStyle="bold"
-                android:textSize="20dp">
+                android:textSize="20dp"
+                android:textStyle="bold">
 
             </TextView>
+
             <ImageView
                 android:layout_width="30dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/control"
+                android:layout_height="30dp"
                 android:layout_marginLeft="10dp"
-                android:layout_height="30dp">
+                android:layout_marginTop="10dp"
+                android:background="@drawable/control">
 
             </ImageView>
 
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/shape2"
-        android:layout_height="0dp">
+        android:background="@drawable/shape2">
 
     </LinearLayout>
 

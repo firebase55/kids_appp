@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.example.fypapp.R;
 import com.example.fypapp.Subjects.playGroubEnglishContent.EnglishActivity;
 import com.example.fypapp.Subjects.playGroupMathsContent.playGroupMathsActivity;
+import com.example.fypapp.Subjects.urdu.urduMainActivity;
 
 public class subjectMaicActivity extends AppCompatActivity {
 
@@ -32,6 +33,13 @@ public class subjectMaicActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent enclass = new Intent(getApplicationContext(), EnglishActivity.class);
                 startActivity(enclass);
+            }
+        });
+        Urdu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent urdu = new Intent(getApplicationContext(), urduMainActivity.class);
+                startActivity(urdu);
             }
         });
 

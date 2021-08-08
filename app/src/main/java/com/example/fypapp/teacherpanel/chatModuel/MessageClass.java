@@ -23,7 +23,6 @@ public class MessageClass extends FirebaseListAdapter<chatClass>
         messageText.setText(model.getMessageText());
         messageUser.setText(model.getMessageUser());
 
-        // Format the date before showing it
         messageTime.setText(DateFormat.format("dd-MM-yyyy (HH:mm:ss)", model.getMessageTime()));
 
 

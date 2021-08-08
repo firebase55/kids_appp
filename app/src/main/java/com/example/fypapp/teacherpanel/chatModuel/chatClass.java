@@ -1,7 +1,6 @@
 package com.example.fypapp.teacherpanel.chatModuel;
 
 import java.util.Date;
-
 public class chatClass {
     private String messageText;
     private String messageUser;

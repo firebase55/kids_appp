@@ -18,7 +18,9 @@ public class playdemoApp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playdemo_app);
         Button playdemo = (Button)findViewById(R.id.play_button);
-        playdemo.setOnClickListener(new View.OnClickListener() {
+        playdemo.setOnClickListener(new View.OnClickListener()
+        {
+            
             @Override
             public void onClick(View v) {
                 VideoView videoView = findViewById(R.id.video1);

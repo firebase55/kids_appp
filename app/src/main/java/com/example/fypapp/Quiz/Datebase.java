@@ -1,7 +1,5 @@
 package com.example.fypapp.Quiz;
-
 import com.example.fypapp.R;
-
 public class Datebase {
     Integer[] flags = {
             // animals
