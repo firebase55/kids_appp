@@ -1,4 +1,4 @@
-package com.example.fypapp.Subjects.playGroupMathsContent.adpterClas;
+package com.example.fypapp.Subjects.urdu;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,9 +12,8 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.example.fypapp.R;
 
-public class adpter extends PagerAdapter {
-
-
+public class urdu_adpter extends PagerAdapter
+{
     private LayoutInflater layoutInflater;
     private Context context;
 
@@ -36,12 +35,12 @@ public class adpter extends PagerAdapter {
             };
 
 
-    public adpter(Context context) {
+    public urdu_adpter(Context context) {
         this.context = context;
     }
-        @Override
+    @Override
     public int getCount() {
-            return image.length;
+        return image.length;
     }
 
     @Override
@@ -52,7 +51,7 @@ public class adpter extends PagerAdapter {
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         layoutInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = layoutInflater.inflate(R.layout.maths_layout,null);
+        View view = layoutInflater.inflate(R.layout.urdu_layout,null);
         ImageView imageView = (ImageView) view.findViewById(R.id.imageid);
         imageView.setImageResource(image[position]);
         ViewPager viewPager = (ViewPager)container;

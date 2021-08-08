@@ -63,4 +63,9 @@ public class MainActivity extends AppCompatActivity {
         Intent gernal = new Intent(getApplicationContext(), gernealMainactivity.class);
         startActivity(gernal);
     }
+
+    public void play_video(View view)
+    {
+
+    }
 }

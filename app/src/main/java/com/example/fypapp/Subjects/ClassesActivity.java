@@ -1,6 +1,7 @@
 package com.example.fypapp.Subjects;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,7 +18,7 @@ public class ClassesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_classes);
-        Button playGroup = (Button)findViewById(R.id.play_grop);
+        CardView playGroup = (CardView) findViewById(R.id.play_group);
         playGroup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

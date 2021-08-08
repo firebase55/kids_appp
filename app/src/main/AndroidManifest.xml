@@ -6,20 +6,20 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/kidsappicon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".gernelKnowledge.shapes.shapesMain"></activity>
+        <activity android:name=".appdemo.playdemoApp"></activity>
+        <activity android:name=".Subjects.urdu.urduMainActivity" />
+        <activity android:name=".gernelKnowledge.shapes.shapesMain" />
         <activity android:name=".gernelKnowledge.mathsActivity.mathsActivityMAin" />
         <activity android:name=".gernelKnowledge.islamic.islamic_activity" />
         <activity android:name=".gernelKnowledge.vegatble.veg_activity" />
         <activity android:name=".gernelKnowledge.bodyParts.body_partsActivity" />
         <activity android:name=".gernelKnowledge.animalsdata.animaActivity" />
-        <activity android:name=".gernelKnowledge.Mainactivity.gernealMainactivity">
-
-        </activity>
+        <activity android:name=".gernelKnowledge.Mainactivity.gernealMainactivity" />
         <activity android:name=".teacherpanel.chatModuel.MainChatActivity" />
         <activity android:name=".gernelKnowledge.Texttospeech.texttospeech" />
         <activity android:name=".Teacher_kids_panel_activity.Registeration.loginActivity" />
