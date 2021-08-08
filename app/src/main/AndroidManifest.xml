@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.fypapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
 
     <application
         android:allowBackup="true"
@@ -11,10 +20,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".appdemo.playdemoApp"></activity>
+        <activity android:name=".gernelKnowledge.mathsActivity.mathsActivityMAin"></activity>
+        <activity android:name=".applocker.applockmain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".appdemo.playdemoApp" />
         <activity android:name=".Subjects.urdu.urduMainActivity" />
         <activity android:name=".gernelKnowledge.shapes.shapesMain" />
-        <activity android:name=".gernelKnowledge.mathsActivity.mathsActivityMAin" />
         <activity android:name=".gernelKnowledge.islamic.islamic_activity" />
         <activity android:name=".gernelKnowledge.vegatble.veg_activity" />
         <activity android:name=".gernelKnowledge.bodyParts.body_partsActivity" />
@@ -31,11 +47,7 @@
         <activity android:name=".Quiz.QuizMainActivity" />
         <activity android:name=".Teacher_kids_panel_activity.panelActivity" />
         <activity android:name=".splash.splash_Screen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.GameoverActivity" />
         <activity android:name=".Entertainmentmoduel.Fishgamemoduel.MainactiviryGame" />
@@ -54,7 +66,11 @@
         <activity android:name=".Entertainmentmoduel.poemspart.Firstpoem" />
         <activity android:name=".Entertainmentmoduel.poemspart.poemActivity" />
         <activity android:name=".Entertinment_mainActivity.Entertainment" />
-        <activity android:name=".Main_dashboard_kids_panel.MainActivity" />
+
+        <service
+            android:name=".applocker.service.MyBlockService"
+            android:exported="true" />
     </application>
+
 
 </manifest>

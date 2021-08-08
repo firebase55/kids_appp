@@ -25,5 +25,6 @@ public class teacherActivity extends AppCompatActivity {
                 startActivity(chat);
             }
         });
+
     }
 }

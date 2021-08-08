@@ -6,4 +6,6 @@
     <color name="skyblue">#0AB9CF</color>
     <color name="black">#000</color>
     <string name="white">#fff</string>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
 </resources>
