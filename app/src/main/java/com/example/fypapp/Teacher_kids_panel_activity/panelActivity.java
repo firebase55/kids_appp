@@ -26,8 +26,8 @@ public class panelActivity extends AppCompatActivity {
 
     public void kids(View view)
     {
-        Intent kids = new Intent(getApplicationContext(),MainActivity.class);
-        startActivity(kids);
+        Intent kidsClass = new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(kidsClass);
     }
 
     public void login_page(View view)

@@ -90,7 +90,6 @@ public class MyBlockService extends Service {
                 stateDialog(foregroundApp);
             }
         };
-
         timer.scheduleAtFixedRate(timerTask,0,1000);
 
 
@@ -140,7 +139,7 @@ public class MyBlockService extends Service {
         Notification notification = new NotificationCompat.Builder(this, MyApplication.NOTIFICATION_CHANNEL)
                 .setContentTitle("App Blocker")
                 .setContentText("It will always show on the top.")
-                .setSmallIcon(R.drawable.blocked)
+                .setSmallIcon(R.drawable.ic_apps)
                 .build();
         startForeground(NOTIFICATION_ID, notification);
     }
